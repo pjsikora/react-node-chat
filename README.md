@@ -7,13 +7,17 @@ Start simple chating!
 ---
 
 TODO
-1. Add storage in API in method:
+1. Add storage in API in method (ex. MongoDB):
 ```
 socket.on('addChatMsg', function(msg){
   // HERE ADD Storage Save action
   socket.broadcast.emit('msgReceived', msg);
 });
 ```
-When Save action returns positive response make `socket.broadcast` 
+When Save action returns positive response make `socket.broadcast`
+
 2. Dockerize
+
 3. Add new features
+
+4. Linters
