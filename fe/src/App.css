@@ -1,0 +1,18 @@
+body {
+  padding-bottom: 200px;
+}
+.messageSender {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  border-top: 1px solid #d3d3d3;
+  width: 100%;
+  height: 150px;
+  padding-top: 10px;
+}
+
+.messageSender textarea {
+  resize: none;
+  margin-bottom: 5px
+}
